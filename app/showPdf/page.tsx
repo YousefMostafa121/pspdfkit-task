@@ -20,7 +20,7 @@ const Page: React.FC = () => {
       // Load PSPDFKit with the specified options
       PSPDFKit.load({
         container,
-        document: "/document.pdf", // Path to the PDF document
+        document: "/sample.pdf", // Path to the PDF document
         baseUrl: `${window.location.protocol}//${window.location.host}/`,
       }).catch((error) => {
         console.error("Error loading PSPDFKit:", error);

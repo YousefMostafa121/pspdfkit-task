@@ -13,7 +13,6 @@ const Page: React.FC = () => {
       try {
         PSPDFKit.unload(container);
       } catch (error) {
-        // Handle any potential errors (e.g., if no previous instance exists)
         console.warn("PSPDFKit unload error:", error);
       }
 
